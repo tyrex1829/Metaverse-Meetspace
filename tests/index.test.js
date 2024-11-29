@@ -63,7 +63,7 @@ describe("Authentication", () => {
   });
 });
 
-describe("User Information endpoints", () => {
+describe("User metadata endpoints", () => {
   let token = "";
   let avatarId = "";
 
@@ -142,3 +142,5 @@ describe("User Information endpoints", () => {
     expect(response.status).toBe(403);
   });
 });
+
+describe("user avatar information", () => {});
